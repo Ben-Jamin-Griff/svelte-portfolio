@@ -37,6 +37,6 @@
 
 <div class="container" style="background-image: url('{bgImage}')">
     <div class="text-box">
-        <h1>I am a web developer drvien by curiosity, concepts, and coffee.</h1>
+        <h1>I am a web developer driven by curiosity, concepts, and coffee.</h1>
     </div>
 </div>

@@ -18,7 +18,10 @@
         }
 
         p {
-                padding: 0 3em
+                padding: 0 3em;
+                font-family: arial;
+                color: grey;
+                font-size: 18px;
         }
 
 </style>
