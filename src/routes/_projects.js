@@ -9,7 +9,7 @@ const projects = [
 	{
     picture: "firebase_28dp.png",
     title: "Firebase To-Do List",
-    description: "This project is a to-do list created using svelte, firebase and a firestore database.",
+    description: "This project is a to-do list created using svelte, firebase and firestore database.",
     repo: "https://github.com/Ben-Jamin-Griff/svelte-todo",
     live: "https://svelte-todo-a9211.web.app/"
   },
