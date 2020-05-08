@@ -9,7 +9,7 @@
 	nav {
 		font-weight: 300;
 		padding: 0 2em;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
         position: absolute;
         bottom: 0;
         left: 0;

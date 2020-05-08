@@ -8,7 +8,7 @@
         
         function handleClick() {
                 console.log(projectCode)
-                if(projectCode < 1) {
+                if(projectCode < 2) {
                         projectCode += 1;
                         project = projects[projectCode];
                 }
@@ -34,14 +34,17 @@
                 grid-row: 1;
                 grid-row-end: span 1;
                 justify-self: center;
+                padding-top: 0.7em;
         }
 
         img {
+                width: 60%;
                 grid-column-start: 1;
                 grid-column-end: span 1;
                 grid-row: 2;
                 grid-row-end: span 1;
-                justify-self: center
+                justify-self: center;
+                align-self: center;
         }
 
         p {
@@ -50,6 +53,8 @@
                 grid-row: 2;
                 grid-row-end: span 1;
                 justify-self: start;
+                align-self: center;
+                padding: 1em;
 
         }
 
@@ -80,10 +85,10 @@
 
 <div>
         <h1>{project.title}</h1>
-        <img src="{project.picture}" width="30%" style="" alt="" />
+        <img src="{project.picture}" style="" alt="" />
         <p>{project.description}</p>
-        <button onclick="window.open('https://github.com/Ben-Jamin-Griff');">Live Project</button>
-        <button onclick="window.open('https://github.com/Ben-Jamin-Griff');">Code</button>
+        <button onclick="window.open('{project.live}');">Live Project</button>
+        <button onclick="window.open('{project.repo}');">Code</button>
         <button class="nav" on:click={handleClickBack}>Previous Project</button>
         <button class="nav" on:click={handleClick}>Next Project</button>
 </div>

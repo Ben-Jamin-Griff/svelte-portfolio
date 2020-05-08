@@ -8,7 +8,7 @@
 <style>
 	nav {
 		font-weight: 300;
-		padding: 0 1em;
+		padding: 1em 1em;
         position: absolute;
         width: 95%;
 	}
@@ -24,7 +24,7 @@
 	}
 
     .text {
-        padding-bottom: 20px;
+        padding-bottom: 1px;
         color: #213958;
         text-transform: uppercase;
     }
