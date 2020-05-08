@@ -10,6 +10,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
+    "deploy": "npm run export && node ./scripts/gh-pages.js"
   },
   "dependencies": {
     "animejs": "^3.2.0",
